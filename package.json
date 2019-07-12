@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev:server": "nodemon server.js",
 		"json:server": "json-server --watch data.json",
-		"start": "concurrently \" npm run dev:server\" \"npm run json:server\""
+		"start": "concurrently \"npm run json:server\" \"npm run dev:server && open http://localhost:4000/graphql\""
 	},
 	"author": "",
 	"license": "MIT",

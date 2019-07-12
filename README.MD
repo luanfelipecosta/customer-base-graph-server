@@ -8,29 +8,22 @@ Also uses
 
 ## Usage
 
-- Install Dependencies
+### Install Dependencies
 
 ```bash
 $ npm i or yarn
 ```
 
-- Run JSON-Server (Port 3000)
+### Start Application
 
 ```bash
 $ npm run start
 ```
 
-- Run Server (Port 4000)
-
-```bash
-$ npm run dev:server
-```
-
-- Visit JSON Server Api
+###  Visit JSON Server Api
 
 Go to http://localhost:4000/graphql
 
-
--Visit Graphiql IDE
+###Visit Graphiql IDE
 
 http://localhost:4000/graphql
