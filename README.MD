@@ -24,6 +24,6 @@ $ npm run start
 
 Go to http://localhost:4000/graphql
 
-###Visit Graphiql IDE
+### Visit Graphiql IDE
 
 http://localhost:4000/graphql
