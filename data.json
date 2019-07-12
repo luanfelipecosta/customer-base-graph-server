@@ -1,0 +1,40 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "João",
+      "email": "joao@dasneves.com",
+      "age": 22
+    },
+    {
+      "id": "2",
+      "name": "Sarah",
+      "email": "sarah@gmale.com",
+      "age": 31
+    },
+    {
+      "id": "3",
+      "name": "Patricia",
+      "email": "patty@compras.com",
+      "age": 28
+    },
+    {
+      "name": "Luan",
+      "email": "1",
+      "age": 24,
+      "id": "w5BHfzb"
+    },
+    {
+      "name": "Nanda",
+      "email": "ff@gmail.com",
+      "age": 22,
+      "id": "mcjuPRE"
+    },
+    {
+      "name": "Nanda",
+      "email": "ff@gmail.com",
+      "age": 22,
+      "id": "1hsdFXj"
+    }
+  ]
+}
