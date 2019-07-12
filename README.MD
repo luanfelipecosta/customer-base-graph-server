@@ -22,8 +22,8 @@ $ npm run start
 
 ###  Visit JSON Server Api
 
-Go to http://localhost:4000/graphql
+Go to http://localhost:8888/
 
 ### Visit Graphiql IDE
 
-http://localhost:4000/graphql
+http://localhost:3001/graphql

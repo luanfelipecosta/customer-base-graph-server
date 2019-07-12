@@ -11,8 +11,8 @@ const graphQLSettings = {
 
 app.use('/graphql', expressGraphQL(graphQLSettings));
 
-app.listen(4000, () => {
+app.listen(3001, () => {
 	console.log(`\n \n`);
-	console.log('GraphQl Server is running on port 4000 \n');
-	console.log('Access Graphi IDE through \n', 'http://localhost:4000/graphql \n');
+	console.log('GraphQl Server is running on port 3001 \n');
+	console.log('Access Graphi IDE through \n', 'http://localhost:3001/graphql \n');
 });
