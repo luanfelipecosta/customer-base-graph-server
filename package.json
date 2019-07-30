@@ -1,23 +1,24 @@
 {
-	"name": "customer-base-server",
-	"version": "1.0.0",
-	"description": "GraphQL Example API",
-	"main": "server.js",
-	"scripts": {
-		"dev:server": "nodemon server.js",
-		"json:server": "json-server --watch data.json --port 8888",
-		"start": "concurrently \"npm run json:server\" \"npm run dev:server && open http://localhost:4000/graphql\""
-	},
-	"author": "",
-	"license": "MIT",
-	"dependencies": {
-		"axios": "^0.19.0",
-		"concurrently": "^4.1.1",
-		"express": "^4.17.1",
-		"express-graphql": "^0.8.0",
-		"graphql": "^14.4.2",
-		"json-server": "^0.15.0",
-		"nodemon": "^1.19.1",
-		"ramda": "^0.26.1"
-	}
+  "name": "customer-base-server",
+  "version": "1.0.0",
+  "description": "GraphQL Example API",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json --port 8888",
+    "start": "concurrently \"npm run json:server\" \"npm run dev:server\" \"open http://localhost:3001/graphql\""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "concurrently": "^4.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.4.2",
+    "json-server": "^0.15.0",
+    "nodemon": "^1.19.1",
+    "ramda": "^0.26.1"
+  }
 }

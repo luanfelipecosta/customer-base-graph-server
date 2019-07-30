@@ -1,14 +1,14 @@
 const express = require('express');
+const cors = require('cors');
 const expressGraphQL = require('express-graphql');
 const schema = require('./schema');
-const log = require('./log');
 const app = express();
 
 const graphQLSettings = {
 	schema: schema,
 	graphiql: true,
 };
-
+app.use(cors())
 app.use('/graphql', expressGraphQL(graphQLSettings));
 
 app.listen(3001, () => {
